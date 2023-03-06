@@ -91,7 +91,7 @@ local lMetaFuncGetIndex = function (tTable, xKey)
 end
 
 local lFuncInitGlobalHook = function()
-    local lMetaTable = { __newindex = lMetaFuncNewIndex, __index = lMetaFuncGetIndex};
+    local lMetaTable = { __newindex = lMetaFuncNewIndex};
     setmetatable(_G, lMetaTable);
 end
 

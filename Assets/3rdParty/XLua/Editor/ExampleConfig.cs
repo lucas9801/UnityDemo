@@ -88,7 +88,7 @@ public static class ExampleConfig
                               where !(assembly.ManifestModule is System.Reflection.Emit.ModuleBuilder)
                               from type in assembly.GetExportedTypes()
                               where type.Namespace != null && namespaces.Contains(type.Namespace) && !isExcluded(type)
-                                      && type.BaseType != typeof(MulticastDelegate) && !type.IsInterface && !type.IsEnum
+                                      && type.BaseType != typeof(MulticastDelegate) && !type.IsInterface /*&& !type.IsEnum8*/
                               select type);
 
             //指定的Assembly
@@ -98,7 +98,7 @@ public static class ExampleConfig
             var customTypes = (from assembly in customAssemblys.Select(s => Assembly.Load(s))
                                from type in assembly.GetExportedTypes()
                                where type.Namespace == null || !type.Namespace.StartsWith("XLua")
-                                       && type.BaseType != typeof(MulticastDelegate) && !type.IsInterface && !type.IsEnum
+                                       && type.BaseType != typeof(MulticastDelegate) && !type.IsInterface /*&& !type.IsEnum8*/
                                select type);
             
             var autoTypes = unityTypes.Concat(customTypes).Concat(LuaCallCSharpSpecialType);
@@ -121,7 +121,9 @@ public static class ExampleConfig
     //指定的类
     private static List<Type> LuaCallCSharpSpecialType = new List<Type>()
     {
-
+        typeof(MyUtils),
+        typeof(LuaMonoBehaviour),
+        typeof(GlobalCoroutine),
     };
 
     // //自动把LuaCallCSharp涉及到的delegate加到CSharpCallLua列表，后续可以直接用lua函数做callback
@@ -161,18 +163,58 @@ public static class ExampleConfig
     //     }
     // }
     //--------------end 纯lua编程配置参考----------------------------
+    
+    public static IEnumerable<Type> GCOptimize
+    {
+        get
+        {
+            List<Type> OptList = new List<Type>(1024);
+            //将LuaCallCSharp中的Enum加进来
+            foreach (Type tt in LuaCallCSharp)
+            {
+                if (tt.IsEnum)
+                    OptList.Add(tt);
+                Type[] nested = tt.GetNestedTypes(BindingFlags.Public);
+                foreach (Type ttt in nested)
+                    if (ttt.IsEnum)
+                        OptList.Add(ttt);
+            }
+            
+            return OptList.Concat(GCOptimizeSpecial).Distinct(); 
+        }
+    }
+
+    //特殊指定的gcoptimize列表
+    public static List<Type> GCOptimizeSpecial = new List<Type>()
+    {
+        typeof(float),
+        typeof(double),
+        typeof(int),
+        typeof(uint),
+        typeof(short),
+        typeof(ushort),
+        typeof(sbyte),
+        typeof(byte),
+        typeof(long),
+        typeof(ulong),
+    };
 
     /***************热补丁可以参考这份自动化配置***************/
-    //[Hotfix]
-    //static IEnumerable<Type> HotfixInject
-    //{
-    //    get
-    //    {
-    //        return (from type in Assembly.Load("Assembly-CSharp").GetTypes()
-    //                where type.Namespace == null || !type.Namespace.StartsWith("XLua")
-    //                select type);
-    //    }
-    //}
+    [Hotfix]
+    static IEnumerable<Type> HotfixInject
+    {
+        get
+        {
+            List<Type> HotFixAll = new List<Type>()
+            {
+                typeof(HotFix),
+            };
+            return HotFixAll;
+            // return (from type in Assembly.Load("Assembly-CSharp").GetTypes()
+            //         where type.Namespace == null || !type.Namespace.StartsWith("XLua")
+            //         select type);
+        }
+    }
     //--------------begin 热补丁自动化配置-------------------------
     //static bool hasGenericParameter(Type type)
     //{
@@ -286,6 +328,7 @@ public static class ExampleConfig
         typeof(UnityAction<LuaTable, float, Slider>),
         typeof(UnityAction<LuaTable, string>),
         typeof(Action<LuaTable>),
+        typeof(Action<LuaTable, bool>),
     };
         
     //黑名单

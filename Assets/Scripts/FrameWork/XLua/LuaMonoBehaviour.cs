@@ -1,6 +1,6 @@
 /*
  *  文件：LuaMonoBehaviour.cs
- *  功能:实现Lua调用unity生命周期，以及UI接口
+ *  功能:实现Lua调用unity生命周期、UI接口等
  *  作者：solo
  */
 using UnityEngine;
@@ -10,7 +10,7 @@ using UnityEngine.UI;
 using UnityEngine.Events;
 using System.Collections.Generic;
 
-public class LuaBehaviour : MonoBehaviour
+public class LuaMonoBehaviour : MonoBehaviour
 {
     public static long g_LuaTableID = 1;
     /// <summary>lua文件路径</summary>
