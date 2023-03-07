@@ -30,7 +30,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169,0649</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup>
@@ -576,43 +576,91 @@
      <Compile Include="Assets\3rdParty\XLua\Gen\UnityEngine_AssetBundleRequestWrap.cs" />
      <Compile Include="Assets\3rdParty\XLua\Gen\UnityEngine_UI_LayoutRebuilderWrap.cs" />
      <Compile Include="Assets\3rdParty\XLua\Gen\UnityEngine_ParticlePhysicsExtensionsWrap.cs" />
+     <Compile Include="Assets\Scripts\FrameWork\ILRuntime\ILRuntimeManager.cs" />
+     <Compile Include="Assets\Scripts\FrameWork\ILRuntime\ILRuntimeMonoBehaviour.cs" />
      <Folder Include="Assets" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.ClothModule.xml" />
      <None Include="Assets\3rdParty\XLua\Examples\07_AsyncTest\Resources\async_test.lua.txt" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEditor.PackageManagerUIModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.ARModule.xml" />
      <None Include="Assets\3rdParty\XLua\Tutorial\LoadLuaScript\ByFile\Resources\byfile.lua.txt" />
      <Folder Include="Assets\StreamingAssets\AssetBundle" />
      <None Include="Assets\StreamingAssets\Lua\oop.lua" />
      <None Include="Assets\StreamingAssets\Lua\Core\Core.lua" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.GameCenterModule.xml" />
      <Folder Include="Assets\3rdParty\XLua\Tutorial\LoadLuaScript\ByFile\Resources" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEditor.DeviceSimulatorModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.SubstanceModule.xml" />
      <Folder Include="Assets\3rdParty" />
      <Folder Include="Assets\3rdParty\XLua\Resources\xlua" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.UnityTestProtocolModule.xml" />
      <None Include="Assets\3rdParty\XLua\Examples\10_SignatureLoader\otherfiles\signatured1.lua" />
      <None Include="Assets\StreamingAssets\Lua\HotFix\HotFix.lua" />
      <Folder Include="Assets\3rdParty\XLua\Examples\10_SignatureLoader\otherfiles" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.TextCoreFontEngineModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.UnityWebRequestTextureModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEditor.CoreModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.ClusterInputModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.xml" />
      <Folder Include="Assets\StreamingAssets\Lua" />
      <Folder Include="Assets\StreamingAssets\Lua\HotFix" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.UnityWebRequestModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.AssetBundleModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.xml" />
      <Folder Include="Assets\Res" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEditor.UIElementsModule.xml" />
      <Folder Include="Assets\3rdParty\XLua\Gen\Resources" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.SubsystemsModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEditor.UIBuilderModule.xml" />
      <Folder Include="Assets\Scripts\FrameWork\HyBrid" />
      <None Include="Assets\3rdParty\XLua\Examples\06_Coroutine\Resources\coruntine_test.lua.txt" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.UIModule.xml" />
      <None Include="Assets\3rdParty\XLua\Resources\xlua\util.lua.txt" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.UmbraModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.UnityWebRequestAssetBundleModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.TextRenderingModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEditor.TextCoreTextEngineModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.UnityAnalyticsModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.VRModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.StreamingModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.InputLegacyModule.xml" />
      <Folder Include="Assets\3rdParty\XLua\Tutorial\LoadLuaScript" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.VideoModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.DSPGraphModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.TLSModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.ParticleSystemModule.xml" />
      <Folder Include="Assets\3rdParty\XLua\Examples\03_UIEvent" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.UIElementsNativeModule.xml" />
      <Folder Include="Assets\3rdParty\XLua\Tutorial\LuaCallCSharp" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.UnityConnectModule.xml" />
      <Folder Include="Assets\3rdParty\XLua\Tutorial\CSharpCallLua" />
      <Folder Include="Assets\Scripts" />
      <None Include="Assets\3rdParty\XLua\Gen\link.xml" />
      <Folder Include="Assets\3rdParty\XLua" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.GridModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.ScreenCaptureModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEditor.TextCoreFontEngineModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEditor.QuickSearchModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEditor.GraphViewModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.TextCoreTextEngineModule.xml" />
      <Folder Include="Assets\3rdParty\XLua\Resources\perf" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.PhysicsModule.xml" />
      <None Include="Assets\StreamingAssets\Lua\HotFix\XLuaUtil.lua" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.VFXModule.xml" />
      <Folder Include="Assets\3rdParty\XLua\Doc" />
      <None Include="Assets\3rdParty\XLua\Examples\10_SignatureLoader\otherfiles\signatured3.lua" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEditor.UIServiceModule.xml" />
      <Folder Include="Assets\3rdParty\Plugins" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.UNETModule.xml" />
      <Folder Include="Assets\3rdParty\XLua\Examples\06_Coroutine\Resources" />
      <Folder Include="Assets\3rdParty\XLua\Examples\08_Hotfix" />
      <None Include="Assets\3rdParty\XLua\Examples\10_SignatureLoader\otherfiles\signatured2.lua" />
      <None Include="Assets\3rdParty\XLua\Resources\perf\profiler.lua.txt" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.SpriteShapeModule.xml" />
      <Folder Include="Assets\3rdParty\XLua\Examples\12_ReImplementInLua" />
      <Folder Include="Assets\Scripts\FrameWork\ILRuntime" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.GIModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEditor.UIElementsSamplesModule.xml" />
      <None Include="Assets\StreamingAssets\Lua\Core\ScriptEvent.lua" />
      <Folder Include="Assets\3rdParty\XLua\Examples\01_Helloworld" />
      <Folder Include="Assets\Scripts\Utils" />
@@ -621,24 +669,53 @@
      <None Include="Assets\3rdParty\XLua\Examples\10_SignatureLoader\signatured1.lua" />
      <Folder Include="Assets\3rdParty\XLua\Examples\10_SignatureLoader" />
      <None Include="Assets\StreamingAssets\Lua\Core\ScriptTime.lua" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.VirtualTexturingModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.AIModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.TerrainPhysicsModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.ClusterRendererModule.xml" />
      <None Include="Assets\3rdParty\XLua\Resources\perf\memory.lua.txt" />
      <Folder Include="Assets\3rdParty\XLua\Examples\06_Coroutine" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.AndroidJNIModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.HotReloadModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.AudioModule.xml" />
      <Folder Include="Assets\3rdParty\XLua\Resources" />
      <Folder Include="Assets\3rdParty\XLua\Tutorial\LoadLuaScript\Loader" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.XRModule.xml" />
      <Folder Include="Assets\Res\UI" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.ProfilerModule.xml" />
      <Folder Include="Assets\3rdParty\XLua\Tutorial\LoadLuaScript\ByString" />
+     <Folder Include="Assets\StreamingAssets\Hotfix" />
      <None Include="Assets\3rdParty\XLua\Examples\03_UIEvent\ButtonInteraction.lua.txt" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.CoreModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.UnityAnalyticsCommonModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.AnimationModule.xml" />
      <Folder Include="Assets\3rdParty\XLua\Examples\09_GenericMethod" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.CrashReportingModule.xml" />
      <Folder Include="Assets\StreamingAssets\Lua\Core" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.DirectorModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.Physics2DModule.xml" />
      <Folder Include="Assets\StreamingAssets" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.UIElementsModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.JSONSerializeModule.xml" />
      <None Include="Assets\3rdParty\XLua\Examples\02_U3DScripting\LuaTestScript.lua.txt" />
      <None Include="Assets\3rdParty\XLua\Examples\07_AsyncTest\Resources\message_box.lua.txt" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.PerformanceReportingModule.xml" />
      <Folder Include="Assets\3rdParty\XLua\Examples\07_AsyncTest" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.TerrainModule.xml" />
      <Folder Include="Assets\3rdParty\XLua\Src" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.UnityCurlModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.SpriteMaskModule.xml" />
      <None Include="Assets\3rdParty\XLua\Examples\10_SignatureLoader\signatured2.lua" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEditor.SceneTemplateModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.LocalizationModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEditor.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.TilemapModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.WindModule.xml" />
      <Folder Include="Assets\3rdParty\XLua\Examples\04_LuaObjectOrented" />
      <Folder Include="Assets\Res\FrameWork" />
      <Folder Include="Assets\3rdParty\XLua\Gen" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.UnityWebRequestWWWModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.AccessibilityModule.xml" />
      <Folder Include="Assets\3rdParty\XLua\Examples\05_NoGc" />
      <Folder Include="Assets\3rdParty\XLua\Examples\10_SignatureLoader\Resources" />
      <None Include="Assets\3rdParty\XLua\Examples\10_SignatureLoader\signatured3.lua" />
@@ -648,17 +725,26 @@
      <Folder Include="Assets\3rdParty\XLua\Examples\11_RawObject" />
      <None Include="Assets\3rdParty\XLua\Resources\tdr\tdr.lua.txt" />
      <Folder Include="Assets\Scripts\FrameWork\XLua" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.IMGUIModule.xml" />
      <None Include="Assets\3rdParty\XLua\CHANGELOG.txt" />
      <Folder Include="Assets\3rdParty\XLua\Doc\Materials" />
      <Folder Include="Assets\3rdParty\XLua\Tutorial\LoadLuaScript\ByFile" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.InputModule.xml" />
      <Folder Include="Assets\3rdParty\XLua\Examples" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.SharedInternalsModule.xml" />
      <Folder Include="Assets\3rdParty\XLua\Src\TemplateEngine" />
      <None Include="Assets\3rdParty\XLua\Examples\06_Coroutine\Resources\cs_coroutine.lua.txt" />
      <Folder Include="Assets\Scripts\FrameWork" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.NVIDIAModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.UnityWebRequestAudioModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.ImageConversionModule.xml" />
      <Folder Include="Assets\3rdParty\XLua\Resources\tdr" />
      <Folder Include="Assets\3rdParty\XLua\Tutorial" />
      <Folder Include="Assets\3rdParty\XLua\Examples\02_U3DScripting" />
      <Folder Include="Assets\3rdParty\XLua\Examples\07_AsyncTest\Resources" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.VehiclesModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEditor.DiagnosticsModule.xml" />
+     <None Include="Assets\StreamingAssets\Hotfix\UnityEditor.UnityConnectModule.xml" />
      <Reference Include="UnityEngine">
      <HintPath>D:\unity\2021.3.19f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
@@ -931,6 +1017,15 @@
      </Reference>
      <Reference Include="Mono.Cecil">
      <HintPath>D:\work\UnityTest\UnityDemo\Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\Mono.Cecil.dll</HintPath>
+     </Reference>
+     <Reference Include="ILRuntime.Mono.Cecil.Mdb">
+     <HintPath>D:\work\UnityTest\UnityDemo\Library\PackageCache\com.ourpalm.ilruntime@2.1.0\Plugins\ILRuntime.Mono.Cecil.Mdb.dll</HintPath>
+     </Reference>
+     <Reference Include="ILRuntime.Mono.Cecil">
+     <HintPath>D:\work\UnityTest\UnityDemo\Library\PackageCache\com.ourpalm.ilruntime@2.1.0\Plugins\ILRuntime.Mono.Cecil.dll</HintPath>
+     </Reference>
+     <Reference Include="ILRuntime.Mono.Cecil.Pdb">
+     <HintPath>D:\work\UnityTest\UnityDemo\Library\PackageCache\com.ourpalm.ilruntime@2.1.0\Plugins\ILRuntime.Mono.Cecil.Pdb.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.iOS.Extensions.Xcode">
      <HintPath>D:\unity\2021.3.19f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -1468,6 +1563,9 @@
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
      <HintPath>D:\work\UnityTest\UnityDemo\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+     </Reference>
+     <Reference Include="ILRuntime">
+     <HintPath>D:\work\UnityTest\UnityDemo\Library\ScriptAssemblies\ILRuntime.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

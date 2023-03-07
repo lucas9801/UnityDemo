@@ -1,0 +1,7 @@
+D:\work\UnityTest\UnityDemo\Assets\StreamingAssets\Hotfix\Hotfix.dll
+D:\work\UnityTest\UnityDemo\Assets\StreamingAssets\Hotfix\Hotfix.pdb
+D:\work\UnityTest\UnityDemo\Hotfix\Hotfix\obj\Debug\Hotfix.csproj.CoreCompileInputs.cache
+D:\work\UnityTest\UnityDemo\Hotfix\Hotfix\obj\Debug\Hotfix.csproj.CopyComplete
+D:\work\UnityTest\UnityDemo\Hotfix\Hotfix\obj\Debug\Hotfix.dll
+D:\work\UnityTest\UnityDemo\Hotfix\Hotfix\obj\Debug\Hotfix.pdb
+D:\work\UnityTest\UnityDemo\Hotfix\Hotfix\obj\Debug\Hotfix.csproj.AssemblyReference.cache

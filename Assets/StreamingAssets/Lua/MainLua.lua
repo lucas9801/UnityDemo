@@ -1,7 +1,7 @@
 ---EmmyLua 调试配置 提交时一定要屏蔽
---package.cpath = package.cpath .. ';C:/Users/admin/AppData/Roaming/JetBrains/Rider2022.1/plugins/EmmyLua/debugger/emmy/windows/x64/?.dll'
---local dbg = require('emmy_core')
---dbg.tcpConnect('localhost', 9966)
+package.cpath = package.cpath .. ';C:/Users/admin/AppData/Roaming/JetBrains/Rider2022.1/plugins/EmmyLua/debugger/emmy/windows/x64/?.dll'
+local dbg = require('emmy_core')
+dbg.tcpConnect('localhost', 9966)
 
 require("oop")
 require("Core/Core")

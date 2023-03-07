@@ -350,6 +350,15 @@
      <Reference Include="Mono.Cecil">
      <HintPath>D:\work\UnityTest\UnityDemo\Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\Mono.Cecil.dll</HintPath>
      </Reference>
+     <Reference Include="ILRuntime.Mono.Cecil.Mdb">
+     <HintPath>D:\work\UnityTest\UnityDemo\Library\PackageCache\com.ourpalm.ilruntime@2.1.0\Plugins\ILRuntime.Mono.Cecil.Mdb.dll</HintPath>
+     </Reference>
+     <Reference Include="ILRuntime.Mono.Cecil">
+     <HintPath>D:\work\UnityTest\UnityDemo\Library\PackageCache\com.ourpalm.ilruntime@2.1.0\Plugins\ILRuntime.Mono.Cecil.dll</HintPath>
+     </Reference>
+     <Reference Include="ILRuntime.Mono.Cecil.Pdb">
+     <HintPath>D:\work\UnityTest\UnityDemo\Library\PackageCache\com.ourpalm.ilruntime@2.1.0\Plugins\ILRuntime.Mono.Cecil.Pdb.dll</HintPath>
+     </Reference>
      <Reference Include="UnityEditor.iOS.Extensions.Xcode">
      <HintPath>D:\unity\2021.3.19f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
      </Reference>
