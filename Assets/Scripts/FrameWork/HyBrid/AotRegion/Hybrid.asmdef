@@ -1,0 +1,16 @@
+{
+    "name": "Hybrid",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2cc83319abcb2c946a6a7911a74d50f3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

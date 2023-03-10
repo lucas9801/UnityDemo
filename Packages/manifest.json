@@ -9,6 +9,7 @@
     }
   ],
   "dependencies": {
+    "com.focus-creative-games.hybridclr_unity": "file:G:/Git/hybridclr_unity",
     "com.ourpalm.ilruntime": "2.1.0",
     "com.unity.collab-proxy": "2.0.0",
     "com.unity.entities": "0.51.1-preview.21",
