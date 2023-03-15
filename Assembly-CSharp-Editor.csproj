@@ -981,6 +981,14 @@
       <Project>{e8b0ad15-e89d-f186-0403-70d08c26f368}</Project>
       <Name>DebugL8</Name>
     </ProjectReference>
+    <ProjectReference Include="AssetBundleManager.csproj">
+      <Project>{c4865593-4041-2efd-5692-4e951afab5c7}</Project>
+      <Name>AssetBundleManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="Utility.csproj">
+      <Project>{8c0d27a7-839b-baf5-fe54-50946b148c16}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

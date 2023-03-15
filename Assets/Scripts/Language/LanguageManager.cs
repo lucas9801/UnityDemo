@@ -121,4 +121,14 @@ public class LanguageManager
     {
         return CurLanguage == "tha";
     }
+    
+    //常用数据结构 数组 队列 栈 链表 堆 树 图 散列表
+    //AB 打包
+    //Hybrid热更新 XLua热更新
+    //UGUI源码
+    //渲染原理
+    //SDK与打包
+    //MVC与ECS
+    //合批 GPU Instancing
+    //自我介绍
 }

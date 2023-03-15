@@ -1,0 +1,17 @@
+{
+    "name": "AssetBundleManager",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2cc83319abcb2c946a6a7911a74d50f3",
+        "GUID:7b9640c3d419426da0438bdd27622a80"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
