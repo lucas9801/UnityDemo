@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 543606216
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: aa2a78d96e2a17bbe964b6f8f18d6c3a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: da1f913157301b1eb8704e65c519c169
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 27904e5cbb24d1644a7c96855d50878e, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Res/FrameWork/HyBridManager.prefab
+Dependencies: []

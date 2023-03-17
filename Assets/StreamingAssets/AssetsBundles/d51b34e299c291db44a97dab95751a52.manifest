@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 4196554128
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 04543764d9844e81f52cc2724d412a34
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1d698c09c9ff9f9f31c1cc58ace8e91a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 27c980bda21f497b8b57a339141220b1, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Res/FrameWork/ILRuntimeManager.prefab
+Dependencies: []
