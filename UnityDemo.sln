@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridCLR.Runtime", "HybridCLR.Runtime.csproj", "{e30e1b72-3624-5c33-6eb2-aa8e891fec8e}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "Utils.csproj", "{e554ca16-2ba2-fe74-5135-ac3e8014ac1e}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebugL8", "DebugL8.csproj", "{e8b0ad15-e89d-f186-0403-70d08c26f368}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hybrid", "Hybrid.csproj", "{0cd454ea-59ba-b968-b612-a77db538a51a}"
@@ -28,6 +30,8 @@ Global
 		{7acb1a99-85cc-1e4b-ce9a-c9c5fdec3f6f}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{e30e1b72-3624-5c33-6eb2-aa8e891fec8e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{e30e1b72-3624-5c33-6eb2-aa8e891fec8e}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{e554ca16-2ba2-fe74-5135-ac3e8014ac1e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{e554ca16-2ba2-fe74-5135-ac3e8014ac1e}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{e8b0ad15-e89d-f186-0403-70d08c26f368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{e8b0ad15-e89d-f186-0403-70d08c26f368}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0cd454ea-59ba-b968-b612-a77db538a51a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

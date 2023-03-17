@@ -4,4 +4,6 @@ public class MyUtils
     {
         return obj == null || obj.Equals(null);
     }
+    
+    
 }

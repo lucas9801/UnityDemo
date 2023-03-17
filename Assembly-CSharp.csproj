@@ -26,7 +26,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\Assembly-CSharp\</OutputPath>
-    <DefineConstants>UNITY_2021_3_19;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;HOTFIX_ENABLE;LOG;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2021_3_19;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;HOTFIX_ENABLE;LOG;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169,0649</NoWarn>
@@ -65,7 +65,6 @@
      <Compile Include="Assets\3rdParty\XLua\Src\InternalGlobals.cs" />
      <Compile Include="Assets\3rdParty\XLua\Examples\01_Helloworld\Helloworld.cs" />
      <Compile Include="Assets\3rdParty\XLua\Tutorial\LoadLuaScript\ByFile\ByFile.cs" />
-     <Compile Include="Assets\Scripts\Utils\MyUtils.cs" />
      <Compile Include="Assets\3rdParty\XLua\Src\Utils.cs" />
      <Compile Include="Assets\3rdParty\XLua\Examples\08_Hotfix\StatefullTest.cs" />
      <Compile Include="Assets\3rdParty\XLua\Examples\07_AsyncTest\MessageBox.cs" />
@@ -88,7 +87,6 @@
      <Compile Include="Assets\3rdParty\XLua\Src\LuaTable.cs" />
      <Compile Include="Assets\3rdParty\XLua\Examples\09_GenericMethod\Foo.cs" />
      <Compile Include="Assets\3rdParty\XLua\Src\RawObject.cs" />
-     <Compile Include="Assets\Scripts\Utils\GlobalCoroutine.cs" />
      <Compile Include="Assets\3rdParty\XLua\Src\TemplateEngine\TemplateEngine.cs" />
      <Compile Include="Assets\3rdParty\XLua\Examples\12_ReImplementInLua\ReImplementInLua.cs" />
      <Compile Include="Assets\3rdParty\XLua\Examples\06_Coroutine\Coroutine_Runner.cs" />
@@ -107,13 +105,14 @@
      <Compile Include="Assets\3rdParty\XLua\Src\StaticLuaCallbacks.cs" />
      <Compile Include="Assets\Scripts\Language\ThaiLanguageTool.cs" />
      <Compile Include="Assets\Scripts\FrameWork\HyBrid\HotFixRegion\HybridHotFix.cs" />
+     <Compile Include="Assets\Scripts\Res\ResLoad\ResLoad.cs" />
+     <Compile Include="Assets\Scripts\Config\LoadingConfigManager.cs" />
      <Folder Include="Assets" />
      <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.ClothModule.xml" />
      <None Include="Assets\3rdParty\XLua\Examples\07_AsyncTest\Resources\async_test.lua.txt" />
      <None Include="Assets\StreamingAssets\Hotfix\UnityEditor.PackageManagerUIModule.xml" />
      <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.ARModule.xml" />
      <None Include="Assets\3rdParty\XLua\Tutorial\LoadLuaScript\ByFile\Resources\byfile.lua.txt" />
-     <Folder Include="Assets\StreamingAssets\AssetBundle" />
      <None Include="Assets\StreamingAssets\Lua\oop.lua" />
      <None Include="Assets\StreamingAssets\Lua\Core\Core.lua" />
      <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.GameCenterModule.xml" />
@@ -122,6 +121,7 @@
      <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.SubstanceModule.xml" />
      <Folder Include="Assets\3rdParty" />
      <Folder Include="Assets\3rdParty\XLua\Resources\xlua" />
+     <Folder Include="Assets\Scripts\Config" />
      <Folder Include="Assets\StreamingAssets\HybridCLRData" />
      <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.UnityTestProtocolModule.xml" />
      <None Include="Assets\3rdParty\XLua\Examples\10_SignatureLoader\otherfiles\signatured1.lua" />
@@ -196,9 +196,9 @@
      <None Include="Assets\StreamingAssets\Hotfix\UnityEditor.UIElementsSamplesModule.xml" />
      <None Include="Assets\StreamingAssets\Lua\Core\ScriptEvent.lua" />
      <Folder Include="Assets\3rdParty\XLua\Examples\01_Helloworld" />
-     <Folder Include="Assets\Scripts\Utils" />
      <Folder Include="Assets\Scripts\FrameWork\ECS" />
      <None Include="Assets\StreamingAssets\Lua\MainLua.lua" />
+     <Folder Include="Assets\StreamingAssets\AssetsBundles" />
      <None Include="Assets\3rdParty\XLua\Examples\10_SignatureLoader\signatured1.lua" />
      <Folder Include="Assets\3rdParty\XLua\Examples\10_SignatureLoader" />
      <None Include="Assets\StreamingAssets\Lua\Core\ScriptTime.lua" />
@@ -210,6 +210,7 @@
      <None Include="Assets\3rdParty\XLua\Resources\perf\memory.lua.txt" />
      <Folder Include="Assets\3rdParty\XLua\Examples\06_Coroutine" />
      <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.AndroidJNIModule.xml" />
+     <Folder Include="Assets\Scripts\Res\ResLoad" />
      <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.HotReloadModule.xml" />
      <None Include="Assets\StreamingAssets\Hotfix\UnityEngine.AudioModule.xml" />
      <Folder Include="Assets\3rdParty\XLua\Resources" />
@@ -1144,6 +1145,10 @@
     <ProjectReference Include="Utility.csproj">
       <Project>{8c0d27a7-839b-baf5-fe54-50946b148c16}</Project>
       <Name>Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="Utils.csproj">
+      <Project>{e554ca16-2ba2-fe74-5135-ac3e8014ac1e}</Project>
+      <Name>Utils</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

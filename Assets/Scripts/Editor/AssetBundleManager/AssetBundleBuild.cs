@@ -9,7 +9,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using CommonEditorTools;
-using Unity.Plastic.Antlr3.Runtime.Misc;
 using UnityEditor;
 using UnityEngine;
 
@@ -30,7 +29,7 @@ public static class AssetBundleBuilder
     [MenuItem("Build/AssetBundle/Win平台")]
     private static void BuildAssetBundle()
     {
-        if (Directory.Exists(m_outPath)) Directory.CreateDirectory(m_outPath);
+        if (!Directory.Exists(m_outPath)) Directory.CreateDirectory(m_outPath);
         MarkBuildSymbol();
         var manifest = BuildPipeline.BuildAssetBundles(m_outPath, m_allBuildDic.Values.ToArray(),
             BuildAssetBundleOptions.ChunkBasedCompression | BuildAssetBundleOptions.DeterministicAssetBundle,
@@ -43,7 +42,7 @@ public static class AssetBundleBuilder
     /// </summary>
     private static void MarkBuildSymbol()
     {
-        List<ABMarkItem> markList = new ListStack<ABMarkItem>()
+        List<ABMarkItem> markList = new List<ABMarkItem>()
         {
             new ABMarkItem { Path = "Assets/Res/FrameWork", Filter = name => name.EndsWith(".prefab") },
             new ABMarkItem { Path = "Assets/Res/UI", Filter = name => name.EndsWith(".prefab") },
@@ -59,7 +58,8 @@ public static class AssetBundleBuilder
         CommonUtility.LoopAllUnityObjectsInFolder("Assets/Res/UI/Textuers",
             obj => AssetBundleUtils.CollectABNameOfAtlas(obj, m_allBuildDic, processAsset));
     }
-
+    
+    
 
 
 }

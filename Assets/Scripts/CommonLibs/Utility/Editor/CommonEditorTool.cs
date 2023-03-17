@@ -24,6 +24,7 @@ namespace CommonEditorTools
             string abName;
             if (s_path2ABNameDic.TryGetValue(path, out abName)) return abName;
 
+            //图集
             if (path.IndexOf(s_packedTextureRootPath) == 0)
             {
                 int idx = path.IndexOf("/", s_packedTextureRootPathLength);
@@ -33,7 +34,7 @@ namespace CommonEditorTools
                 return abName;
             }
 
-            abName = MD5FilesGenerator.GetMd5Hash(abName);
+            abName = MD5FilesGenerator.GetMd5Hash(path);
             s_path2ABNameDic.Add(path, abName);
             return abName;
         }

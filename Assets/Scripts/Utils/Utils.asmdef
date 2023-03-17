@@ -1,10 +1,8 @@
 {
-    "name": "AssetBundleManager",
+    "name": "Utils",
     "rootNamespace": "",
     "references": [
-        "GUID:2cc83319abcb2c946a6a7911a74d50f3",
-        "GUID:7b9640c3d419426da0438bdd27622a80",
-        "GUID:d6cbcad412f2419c9e1928f7320bbe0c"
+        "GUID:2cc83319abcb2c946a6a7911a74d50f3"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
